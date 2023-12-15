@@ -1,0 +1,28 @@
+20:40:02.766 [main] INFO  c.e.s.SpringBootAopApplication - Starting SpringBootAopApplication using Java 21.0.1 with PID 11696 (C:\JobInTech\Java\springBoot-aop\target\classes started by Lenovo-J in C:\JobInTech\Java\springBoot-aop)
+20:40:02.770 [main] DEBUG c.e.s.SpringBootAopApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+20:40:02.771 [main] INFO  c.e.s.SpringBootAopApplication - No active profile set, falling back to 1 default profile: "default"
+20:40:04.196 [main] INFO  c.e.s.SpringBootAopApplication - Started SpringBootAopApplication in 1.958 seconds (process running for 3.142)
+20:40:04.205 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logBeforeCreateEmployee() : addEmployee
+20:40:04.205 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : addEmployee
+20:40:04.206 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : addEmployee
+20:40:04.206 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterCreateEmployee() : addEmployee
+20:40:04.206 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : getEmployeeById
+20:40:04.207 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : getEmployeeById
+20:40:04.208 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterGetEmployee() : getEmployeeById
+20:40:04.208 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : getEmployeeById
+20:40:04.208 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : getAllEmployees
+20:40:04.208 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : getAllEmployees
+20:45:12.293 [main] INFO  c.e.s.SpringBootAopApplication - Starting SpringBootAopApplication using Java 21.0.1 with PID 10852 (C:\JobInTech\Java\springBoot-aop\target\classes started by Lenovo-J in C:\JobInTech\Java\springBoot-aop)
+20:45:12.295 [main] DEBUG c.e.s.SpringBootAopApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+20:45:12.296 [main] INFO  c.e.s.SpringBootAopApplication - No active profile set, falling back to 1 default profile: "default"
+20:45:13.492 [main] INFO  c.e.s.SpringBootAopApplication - Started SpringBootAopApplication in 1.68 seconds (process running for 2.843)
+20:45:13.501 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logBeforeCreateEmployee() : addEmployee
+20:45:13.502 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : addEmployee
+20:45:13.502 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : addEmployee
+20:45:13.502 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterCreateEmployee() : addEmployee
+20:45:13.503 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : getEmployeeById
+20:45:13.503 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeGetEmployee() : getEmployeeById
+20:45:13.504 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterGetEmployee() : getEmployeeById
+20:45:13.504 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : getEmployeeById
+20:45:13.504 [main] DEBUG c.e.s.aspect.LoggingAspect - *****LoggingAspect.logBeforeAllMethods() : getAllEmployees
+20:45:13.505 [main] DEBUG c.e.s.aspect.LoggingAspect - ****LoggingAspect.logAfterAllMethods() : getAllEmployees
